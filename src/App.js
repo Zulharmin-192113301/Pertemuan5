@@ -1,26 +1,19 @@
 import React, { Component } from 'react';
 import './App.css';
+import logo from './logo.svg';
 
-function bilanghai(){
-  return "Hai Dunia"
+function Pesan() {
+   return <p>Ini adalah Pesannya</p>
 }
 
 class App extends Component {
-
-  bilanghalo() {
-    return " Hallo Dunia"
-  }
-
   render(){
     return (
-      <>
-      <p>Bilang Hai : <b>{bilanghai()}</b></p>
-      <p>Bilang Hallo : <b>{this.bilanghalo()}</b></p>
-      </>
+      <div>
+        <Pesan/>
+      </div>
     )
   }
-
-
 }
 
 export default App;
