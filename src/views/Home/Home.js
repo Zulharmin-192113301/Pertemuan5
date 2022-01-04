@@ -5,10 +5,9 @@ export default class Home extends React.Component{
         return (
           <div>
             <h2>Judul Halaman Home</h2>
-            <p>Komponen Halamnan Home</p>
+            <p>Hai namaku {this.props.nama}</p>
           </div>
         )
       }
-
 
 }
