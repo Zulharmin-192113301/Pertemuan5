@@ -8,9 +8,7 @@ export default class Home extends React.Component{
   render() {
     return (
       <div>
-          <h2>ini adalah Judul halaman home</h2>
-          <p>Hai namaku adalah {this.state.nama}</p>
-          <button onClick={()=> this.setState({nama: "Yanto"})}>Ganti nama nya</button>
+
       </div>
     )
   }

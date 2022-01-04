@@ -2,13 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Main from './Main'
-import Input from './components/Input/Input'
+import Main from './Main';
+import Input from './components/Input/Input';
+import Card from './components/Card/Card';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Input />
+    <Main />
   </React.StrictMode>,
   document.getElementById('root')
 );
